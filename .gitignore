@@ -1,0 +1,4 @@
+# Ignore obsidian files
+.obsidian
+# Ignore vscode files
+.vscode
