@@ -26,7 +26,7 @@ $$ \frac{d(\text{GetDistance})}{d \theta} = \frac{\text{distance2} - \text{dista
 $$ \phi = - \alpha \cdot \frac{d(\text{GetDistance})}{d \theta} $$
 
 где $\alpha$ — число равное скорости перемещения робота задается пользователем. Алгоритм продолжает работать до тех пор, пока функция $\text{GetDistance}$ не покажет значение меньше установленного переменной **threshold**.
-## Результат
+## Результат | video
 
 [![Watch the video](https://img.youtube.com/vi/6DnhueNAK40/0.jpg)](https://www.youtube.com/watch?v=6DnhueNAK40)
 
