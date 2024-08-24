@@ -28,6 +28,6 @@ $$ \phi = - \alpha \cdot \frac{d(\text{GetDistance})}{d \theta} $$
 где $\alpha$ — число равное скорости перемещения робота задается пользователем. Алгоритм продолжает работать до тех пор, пока функция $\text{GetDistance}$ не покажет значение меньше установленного переменной **threshold**.
 ## Результат
 
-![Video](https://www.youtube.com/embed/6DnhueNAK40?si=rXvi0_wwSSkV-8fS)
+[![Watch the video](https://img.youtube.com/vi/6DnhueNAK40/0.jpg)](https://www.youtube.com/watch?v=6DnhueNAK40)
 
 В папке `Build` лежит скомпилированный проект.
