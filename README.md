@@ -1,7 +1,8 @@
 # Позиционное управление роботом COMAU Rebel-S6-0.45 методом градиентного спуска
 
 3D модель робот можно найти на [официальной странице робота](https://www.comau.com/en/our-offer/products-and-solutions/robot-team/rebel-s6-0-45/).
-![FBX model](img/2.jpg)
+
+![FBX model](/img/2.jpg)
 
 ## Управления камерой
 Все функции управления камерой реализованы в скрипте `FlyCamera.cs`.
@@ -25,7 +26,8 @@ $$ \frac{d(\text{GetDistance})}{d \theta} = \frac{\text{distance2} - \text{dista
 $$ \phi = - \alpha \cdot \frac{d(\text{GetDistance})}{d \theta} $$
 
 где $\alpha$ — число равное скорости перемещения робота задается пользователем. Алгоритм продолжает работать до тех пор, пока функция $\text{GetDistance}$ не покажет значение меньше установленного переменной **threshold**.
-## Результат
-![video](img/robot.mp4)
+## Результат | video
+
+[![Watch the video](https://img.youtube.com/vi/6DnhueNAK40/0.jpg)](https://www.youtube.com/watch?v=6DnhueNAK40)
 
 В папке `Build` лежит скомпилированный проект.
