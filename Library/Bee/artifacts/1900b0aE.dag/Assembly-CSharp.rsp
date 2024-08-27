@@ -342,7 +342,6 @@
 "Assets/Scripts/FlyCamera.cs"
 "Assets/Scripts/IKmanager.cs"
 "Assets/Scripts/Joint.cs"
-"Assets/Scripts/sp.cs"
 "Assets/Scripts/UImanager.cs"
 -langversion:9.0
 
